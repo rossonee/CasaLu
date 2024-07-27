@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CasaLù</title>
+    <style>
+        body {
+            background-color: orange;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            color: black;
+        }
+        .header .subtitle {
+            display: block; /* Imposta il display come block per farlo apparire su una nuova linea */
+            font-size: 1em;
+            color: black; /* Cambia il colore se necessario */
+            margin-top: 10px;
+            font-style: italic; /* Frase in corsivo */
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .photos img {
+            width: 30%; /* Adjust as needed for the number of images */
+            height: 350px; /* Fixed height for uniformity */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+            margin: 10px 0;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        .info {
+            margin-top: 5px;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .info h2 {
+            margin-top: 0;
+            font-size: 1.1em; /* Dimensione del titolo delle informazioni */
+            font-family: 'Calibri', sans-serif; /* Cambia il font qui */
+            font-style: italic; /* Rende il testo in corsivo */
+            color: white
+        }
+        .info p {
+            font-size: 0.9em; /* Dimensione del testo delle informazioni di contatto */
+        }
+        .maps-link {
+            display: block;
+            margin-top: 30px;
+            margin-bottom: 30px; /* Aggiungi spazio tra il collegamento e le foto */
+            text-align: center;
+        }
+        .maps-link a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .maps-link a:hover {
+            background-color: black;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to CasaLù</h1>
+            <span class="subtitle">Enjoy your vacation in Naples!
+                                   Walk to the METRO in just two minutes or reach the center by foot in ten minutes</span>
+        </div>
+
+        <div class="info">
+            <h2>INFORMAZIONI DI CONTATTO</h2>
+            <p>Indirizzo: Via Guglielmo Appulo n.10, Materdei, Napoli</p>
+            <p>Telefono: +39 392 874 9023</p>
+            <p>Proprietario: Massimiliano Romano</p>
+        </div>
+
+        <div class="maps-link">
+            <a href="https://www.google.it/maps/place/Via+Guglielmo+Appulo,+80136+Napoli+NA/@40.8567413,14.2420617,17z/data=!4m6!3m5!1s0x133b08611f18fdc5:0x930562b5a8e3b7ce!8m2!3d40.8566419!4d14.2440465!16s%2Fg%2F1wf4qpxd?entry=ttu">Visualizza sulla mappa</a>
+        </div>
+
+        <div class="photos">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\1.jpg" alt="Foto 1">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\2.jpg" alt="Foto 2">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\3.jpg" alt="Foto 3">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\4.jpg" alt="Foto 4">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\5.jpg" alt="Foto 5">
+            <img src="C:\Users\massi\Desktop\b&b materdei\foto\ufficiali\6.jpg" alt="Foto 6">
+        </div>
+    </div>
+</body>
+</html>
